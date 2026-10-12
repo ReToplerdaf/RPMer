@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RPMmeter Privacy Policy</title>
+<style>
+:root{
+  --ground:#F3F5F6; --paper:#FFFFFF; --ink:#16212A; --muted:#5A6873; --line:#D5DCE1; --accent:#0A6C94; --amber:#B88700;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){color-scheme:dark;--ground:#0C1215;--paper:#141C21;--ink:#E3E9ED;--muted:#8F9CA6;--line:#28343C;--accent:#4DB2DE;--amber:#F2C14E}
+}
+:root[data-theme="dark"]{color-scheme:dark;--ground:#0C1215;--paper:#141C21;--ink:#E3E9ED;--muted:#8F9CA6;--line:#28343C;--accent:#4DB2DE;--amber:#F2C14E}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.6;padding-inline:16px;padding-block:28px 56px}
+main{max-width:720px;margin:0 auto;background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:28px clamp(18px,5vw,44px) 36px}
+.brand{display:flex;align-items:center;gap:12px;min-width:0}.brand>div{min-width:0}
+.brand svg{flex:none}
+h1{font-size:clamp(20px,5.5vw,26px);line-height:1.2;margin:0;text-wrap:balance;overflow-wrap:anywhere;hyphens:auto}
+.meta{font-family:var(--mono);font-size:12.5px;color:var(--muted);margin:6px 0 0}
+nav{display:flex;gap:6px;margin:22px 0 4px;flex-wrap:wrap}
+nav button{font:inherit;font-size:14px;font-weight:600;padding:5px 12px;border:1px solid var(--line);border-radius:4px;background:none;color:var(--muted);cursor:pointer}
+nav button[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:var(--paper)}
+nav button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+h2{font-size:17px;margin:26px 0 6px}
+p,li{max-width:66ch}
+ul{padding-left:20px;margin:6px 0}
+li{margin:4px 0}
+.summary{border-left:3px solid var(--amber);padding:10px 14px;background:var(--ground);border-radius:3px;margin-top:18px}
+.summary p{margin:0}
+</style>
+</head>
+<body>
+
+<main>
+  <div class="brand">
+    <svg width="40" height="40" viewBox="0 0 1024 1024" aria-hidden="true"><rect width="1024" height="1024" rx="220" fill="#121A1F"/><circle cx="512" cy="512" r="330" fill="none" stroke="#3A4852" stroke-width="64"/><path d="M 651.5 212.9 A 330 330 0 0 1 811.1 372.5" fill="none" stroke="#F2C14E" stroke-width="98"/><text x="512" y="590" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="222" letter-spacing="-6" fill="#F5F7F8">RPM</text></svg>
+    <div>
+      <h1 id="title">RPMmeter — Privacy Policy</h1>
+      <p class="meta" id="meta">Effective: 12 October 2026 · Developer: Shaman</p>
+    </div>
+  </div>
+
+  <nav role="tablist" aria-label="Language">
+    <button role="tab" id="t-en" data-lang="en" aria-selected="true">English</button>
+    <button role="tab" id="t-ru" data-lang="ru" aria-selected="false">Русский</button>
+    <button role="tab" id="t-zh" data-lang="zh" aria-selected="false">中文</button>
+  </nav>
+
+  <section id="en" lang="en">
+    <div class="summary"><p><b>In short:</b> RPMmeter does not collect, store or send any personal data. Everything is processed on your device.</p></div>
+    <h2>Camera</h2>
+    <p>The app uses the camera only while the Camera tab is open, to measure rotation speed from a mark on a rotating part. Each frame is reduced to a small brightness value on the device and discarded immediately. Images and video are never saved, uploaded or shared.</p>
+    <h2>Motion sensors</h2>
+    <p>The Gyroscope tab reads the phone's gyroscope to show angular speed. These readings stay on the device and are not stored.</p>
+    <h2>Data stored on your device</h2>
+    <p>The app remembers only your chosen interface language. It is kept in the app's local storage and is deleted when you uninstall the app.</p>
+    <h2>What we do not do</h2>
+    <ul>
+      <li>No accounts, no sign-in.</li>
+      <li>No advertising, analytics or tracking SDKs.</li>
+      <li>No network requests with your data; measurements never leave the device.</li>
+      <li>No sale or transfer of data to third parties.</li>
+    </ul>
+    <h2>Permissions</h2>
+    <p>Camera — required only for the Camera tab. You can deny or revoke it in system settings; the Gyroscope, Taps and Convert tabs keep working without it.</p>
+    <h2>Children</h2>
+    <p>The app does not collect data from anyone, including children under 13.</p>
+    <h2>Changes</h2>
+    <p>If this policy changes, the new version will be published on this page with a new effective date.</p>
+    <h2>Contact</h2>
+    <p>Questions about this policy: use the developer contact on the app's store page.</p>
+  </section>
+
+  <section id="ru" lang="ru" hidden>
+    <div class="summary"><p><b>Коротко:</b> RPMmeter не собирает, не хранит и не передаёт персональные данные. Вся обработка происходит на вашем устройстве.</p></div>
+    <h2>Камера</h2>
+    <p>Приложение использует камеру, только пока открыта вкладка «Камера», чтобы измерить скорость вращения по метке на детали. Каждый кадр прямо на устройстве сводится к одному значению яркости и сразу удаляется. Фото и видео не сохраняются, не загружаются и никому не передаются.</p>
+    <h2>Датчики движения</h2>
+    <p>Вкладка «Гироскоп» читает гироскоп телефона, чтобы показать угловую скорость. Эти данные остаются на устройстве и не сохраняются.</p>
+    <h2>Что хранится на устройстве</h2>
+    <p>Приложение запоминает только выбранный язык интерфейса. Он хранится в локальной памяти приложения и удаляется вместе с приложением.</p>
+    <h2>Чего мы не делаем</h2>
+    <ul>
+      <li>Нет учётных записей и входа.</li>
+      <li>Нет рекламы, аналитики и средств отслеживания.</li>
+      <li>Нет сетевых запросов с вашими данными: измерения не покидают устройство.</li>
+      <li>Данные не продаются и не передаются третьим лицам.</li>
+    </ul>
+    <h2>Разрешения</h2>
+    <p>Камера — нужна только для вкладки «Камера». Разрешение можно не давать или отозвать в настройках системы; вкладки «Гироскоп», «Касания» и «Пересчёт» работают и без него.</p>
+    <h2>Дети</h2>
+    <p>Приложение ни у кого не собирает данные, в том числе у детей младше 13 лет.</p>
+    <h2>Изменения</h2>
+    <p>Если политика изменится, новая версия будет опубликована на этой странице с новой датой вступления в силу.</p>
+    <h2>Контакты</h2>
+    <p>Вопросы по этой политике: используйте контакт разработчика на странице приложения в магазине.</p>
+  </section>
+
+  <section id="zh" lang="zh-CN" hidden>
+    <div class="summary"><p><b>简述：</b>RPMmeter 不收集、不存储、不发送任何个人数据。所有处理都在您的设备上完成。</p></div>
+    <h2>相机</h2>
+    <p>应用仅在“相机”标签页打开时使用相机，通过旋转部件上的标记测量转速。每一帧都会在设备上被缩减为一个亮度数值并立即丢弃。图片和视频不会被保存、上传或分享。</p>
+    <h2>运动传感器</h2>
+    <p>“陀螺仪”标签页读取手机陀螺仪以显示角速度。这些读数仅保留在设备上，不会被存储。</p>
+    <h2>设备上存储的数据</h2>
+    <p>应用只记住您选择的界面语言。它保存在应用的本地存储中，卸载应用时会被删除。</p>
+    <h2>我们不会做的事</h2>
+    <ul>
+      <li>无需账户，无需登录。</li>
+      <li>没有广告、分析或跟踪 SDK。</li>
+      <li>不会通过网络发送您的数据；测量结果不会离开设备。</li>
+      <li>不会向第三方出售或转让数据。</li>
+    </ul>
+    <h2>权限</h2>
+    <p>相机 —— 仅“相机”标签页需要。您可以在系统设置中拒绝或撤销该权限；“陀螺仪”、“点按”和“换算”标签页无需此权限也能正常使用。</p>
+    <h2>儿童</h2>
+    <p>本应用不收集任何人的数据，包括 13 岁以下的儿童。</p>
+    <h2>变更</h2>
+    <p>如本政策有变更，新版本将在此页面发布并注明新的生效日期。</p>
+    <h2>联系方式</h2>
+    <p>如对本政策有疑问，请通过应用商店页面上的开发者联系方式与我们联系。</p>
+  </section>
+</main>
+
+<script>
+(() => {
+  const T = {
+    en: ['RPMmeter — Privacy Policy', 'Effective: 12 October 2026 · Developer: Shaman'],
+    ru: ['RPMmeter — Политика конфиденциальности', 'Действует с 12 октября 2026 · Разработчик: Shaman'],
+    zh: ['RPMmeter — 隐私政策', '生效日期：2026 年 10 月 12 日 · 开发者：Shaman'],
+  };
+  function show(lang) {
+    for (const l of Object.keys(T)) {
+      document.getElementById(l).hidden = l !== lang;
+      document.getElementById('t-' + l).setAttribute('aria-selected', l === lang);
+    }
+    document.getElementById('title').textContent = T[lang][0];
+    document.getElementById('meta').textContent = T[lang][1];
+    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : lang;
+  }
+  document.querySelectorAll('nav button').forEach(b => b.addEventListener('click', () => show(b.dataset.lang)));
+  const h = location.hash.slice(1);
+  const nav = (navigator.language || 'en').slice(0, 2);
+  show(T[h] ? h : T[nav] ? nav : 'en');
+})();
+</script>
+</body>
+</html>
